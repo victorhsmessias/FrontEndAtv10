@@ -1,0 +1,45 @@
+﻿body {
+  background-color: #f0f8ff; 
+  font-family: Arial, sans-serif; 
+  color: #333;
+}
+
+
+h1{
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #2e5b88;
+}
+/* Container centralizado */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Bloco com texto e imagem lado a lado */
+.bloco-destaque {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+  margin-bottom: 40px;
+  justify-content: flex-start; 
+}
+
+/* Estilização do primeiro parágrafo (Texto 1) */
+.texto-destaque {
+  color: #2C3E50;
+  font-family: 'Arial', sans-serif; 
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 500px;
+  text-align: justify; 
+}
+
+/* Estilização da primeira imagem */
+.imagem-destaque {
+  width: 350px; 
+  height: auto;
+  border-radius: 8px;
+}
